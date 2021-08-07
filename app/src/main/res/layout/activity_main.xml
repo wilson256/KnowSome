@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KnowSome App"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:id="@+id/text"
+        android:textColor="#711D1C"
+
+       />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_below="@+id/text"
+        android:text="check out"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15sp"
+        />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15sp"
+        android:text="Next"
+        />
+    <Button
+        android:id="@+id/luga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15sp"
+        android:text="Chinese"
+        />
+    <Button
+    android:id="@+id/luso"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/luga"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="15sp"
+    android:text="French"
+    />
+
+</RelativeLayout>
